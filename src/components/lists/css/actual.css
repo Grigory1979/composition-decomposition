@@ -1,0 +1,31 @@
+/**
+ * CSS-классы для компонента 
+ */
+ .container__page {
+    max-width: 1200px;
+    margin: auto
+   }
+  .container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .actual__general,
+  .actual__currency,
+  .actual__section {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .actual__news {
+    margin-top: 10px;
+  }
+  .actual__item__news {
+    display: flex;
+  }
+  
+  .aside__img__asideHeadContent {
+    height: 100px;
+  }
